@@ -1,6 +1,7 @@
 #!/bin/bash
 set -e  # Exit script on error
 
+
 export PGPASSWORD="${DB_PASS}"
 
 echo "🔹 Connecting to PostgreSQL and ensuring 'users' table exists..."
